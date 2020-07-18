@@ -1,0 +1,162 @@
+/* =====================================================================
+                                Core css start
+========================================================================*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: arial;
+  background-color: #EEE;
+  line-height: 20px;
+}
+.container{
+  max-width: 1000px;
+  background-color: #E4f9f5;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #11999e;
+}
+hr{
+  border: 3px solid black;
+  margin: 20px auto;
+  width: 100%;
+  border-bottom: none;
+}
+.div_clear{
+  clear: both;
+}
+.common_hr{
+  margin: 20px auto;
+  border: 1px solid black;
+  width: 100%;
+  border-bottom: none;
+}
+.line_spacer{
+  margin-bottom: 16px;
+}
+/* =======================================================================
+                                    Core css end
+==========================================================================*/
+
+
+
+/* =======================================================================
+                                    header start
+==========================================================================*/
+header{
+
+}
+.profile_image{
+  width: 100px;
+  height: 101px;
+  border-radius: 50%;
+  border: 3px solid #3cc8a7;
+  float: left;
+}
+.header_bio{
+  float: left;
+  padding: 30px;
+}
+
+.header_contact{
+  float: right;
+  padding: 30px;
+}
+.header_contact a{
+  text-decoration: none;
+  font-weight: bold;
+  color: teal;
+}
+.header_contact a:hover{
+  text-decoration: underline;
+  color: tomato;
+}
+/* =======================================================================
+                                  header end
+=========================================================================*/
+
+
+/* =======================================================================
+                            personal_section start
+========================================================================*/
+.left_content{
+  float: left;
+  width: 30%;
+}
+.right_content{
+  float: left;
+  width: 70%;
+}
+/* =======================================================================
+                            personal_section end
+========================================================================*/
+
+
+
+/* =======================================================================
+                            educatin_section start
+========================================================================*/
+.edu_one{
+  float: left;
+  width: 34%;
+}
+.edu_two{
+  float: left;
+  width: 33%;
+}
+.edu_three{
+  float: left;
+  width: 33%;
+}
+/* ======================================================================
+                                educatin_section end
+=======================================================================*/
+
+
+
+
+/*===============================================================
+                          Refarance Section start
+================================================================*/
+#refarance_section{}
+.ref_left{
+  float: left;
+  width: 50%
+}
+.ref_right{
+  float: left;
+  width: 50%
+}
+/*===============================================================
+                          Refarance Section End
+================================================================*/
+
+
+/* ===============================================================
+                          footer start
+================================================================*/
+.footer_style{
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+.footer_style a{
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+.footer_style a:hover{
+  text-decoration: underline;
+  color: tomato;
+
+}
+.footer_style p{
+  color: #fff;
+  margin-top: 20px;
+}
+/* ===================================================================
+                              footer end
+====================================================================*/
